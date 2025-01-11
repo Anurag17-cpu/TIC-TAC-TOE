@@ -79,7 +79,7 @@ h1{
 
 h1:hover{
     font-size: 4rem;
-    background-image: url(/img3.jpg);
+    background-image: url(img3.jpg);
     background-size: fill;
     color: #ffa175;
     font-weight: 900;
