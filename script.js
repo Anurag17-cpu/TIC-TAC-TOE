@@ -16,6 +16,7 @@ const win_pattern =[
 const newgame=()=>{
     turnO=true;
     enable_boxes();
+    count=0;
 }
 
 newg.addEventListener("click",newgame);
