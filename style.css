@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: pink;
+    text-align: center;
+
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+    color: #fec9c3;
+    font-size: 9vmin;
+
+}
+
+#reset{
+    height: 13vmin;
+    width: 13vmin;
+    background-color: rgba(0,0,0, 0.75);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+    color: #fec9c3;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+#newgame{
+    height: 13vmin;
+    width: 13vmin;
+    background-color: rgba(0,0,0, 0.75);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+    color: #fec9c3;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.font1{
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+h1{
+    height:100px;
+    width: 50vw;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25vw;
+}
+
+h1:hover{
+    font-size: 4rem;
+    background-image: url(/img3.jpg);
+    background-size: fill;
+    color: #ffa175;
+    font-weight: 900;
+}
+
